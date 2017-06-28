@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 2% 10%;
+  background-color: #0072bc;
+  color: white;
+}
+
+.countries {
+  position: relative;
+  width: 20%;
+  margin-top: 5px;
+  float: left;
+  margin-left: 10%;
+}
+
+.count-wr h3 {
+  color: #0072bc;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.count-wr p {
+  color: #464646;
+  font-size: 1em;
+}
+
+.count-wr {
+  position: relative;
+  width: 90%;
+  margin-bottom: 2px;
+  padding: 4%;
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.tr {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #0072bc;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: -10px;
+  top: 45%;
+}
+
+.active {
+  background-color: #0072bc;
+}
+
+.active p, .active h3 {
+  color: white;
+}
+
+.cities {
+  position: relative;
+  width: 68%;
+  padding: 1%;
+  float: right;
+}
+
+.city-wr {
+  width: calc(100% - 20px);
+  padding: 10px;
+  color: #494949;
+  margin-top: 5px;
+  border: 1px solid gray;
+}
+
+.city-wr p, .city-wr h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.changecity, .del {
+  float: right;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #0072bc;
+  padding: 5px;
+  border: none;
+  margin-left: 1%;
+  margin-top: 5px;
+  color: white;
+  padding: 10px 30px;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.addcity {
+  color: #494949;
+  margin-top: 5px;
+}
+
+.changecity, .del {
+  float: right;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type=text], textarea {
+  position: relative;
+  width: calc(100% - 40px);
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid blue;
+  border-radius: 4px;
+}
